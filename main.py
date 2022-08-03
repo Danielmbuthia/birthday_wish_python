@@ -14,7 +14,7 @@ import datetime as dt
 import smtplib
 from dotenv import dotenv_values
 
-config = dotenv_values()
+config = dotenv_values('.env')
 MY_EMAIL = config['email']
 MY_PASSWORD = config['password']
 
